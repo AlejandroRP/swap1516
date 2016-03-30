@@ -1,0 +1,13 @@
+login: usuario
+pass: usuario
+
+
+
+Detalles a tener en cuenta:
+	-M3 debe poder conectarse a las M1 y M2. 
+	-NO HAY QUE PONER APACHE
+	-Antes de lanzar el balanceador, hay que matar el otro balanceador.
+
+	Hay que eliminar el crontab que hicimos para sincronizar los archivos entre la M1 y M2. Hay que modificar el index de cada uno para que se identifique y podemos discernir entre una y otra cuando estemos viendo si se balancea la carga o no.
+
+	
