@@ -3,7 +3,7 @@
 # **PRACTICA 2**
 
 
-Para la realizacion de la practica basicamente se han seguido los pasos del guion, al probar el funcionamiento de rsync este no funcionaba porque lo estabamos haciendo como root y no lo habiamos configurado previamente para esto, asi que finalmente lo hicimos en modo usuario pero para que funcionara debiamos darle permisos al directorio web(**/var/www/**) de cada maquina con la orden **chown usuario:usuario -R /var/www/** 
+Para la realización de la practica, basicamente se han seguido los pasos del guion, al probar el funcionamiento de rsync este no funcionaba porque lo estabamos haciendo como root y no lo habiamos configurado previamente para esto, asi que finalmente lo hicimos en modo usuario pero para que funcionara debiamos darle permisos al directorio web(**/var/www/**) de cada maquina con la orden **chown usuario:usuario -R /var/www/** 
 
 *Cambio de dueño del directorio.*
 
@@ -29,3 +29,12 @@ Ejecutado desde la maquina 2.
 *Configuramos ssh en la maquina 2 para que la maquina 1 acceda a esta.*
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica2/Imagenes/1-5%20ssh%20configurado%20M2.JPG)
+
+*Aqui podemos ver el contenido del script que ejecutará crontab.*
+
+![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica2/Imagenes/1-6%20Contenido%20del%20script%20que%20ejecutar%C3%A1%20crontab.JPG)
+
+*Fichero crontab.*
+
+![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica2/Imagenes/1-7%20Contenido%20de%20crontab.JPG)
+
