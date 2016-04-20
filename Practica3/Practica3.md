@@ -26,19 +26,19 @@ Reparto ponderacion 1 - 2:
 
 **Instalamos y configuramos Haproxy**
 
-Configuracion del archivo /etc/haproxy/haproxy.cfg Round Robin:
+Configuracion del archivo `/etc/haproxy/haproxy.cfg` Round Robin:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-2-1%20Configuracion%20HAPROXY%20RoundRobin.JPG)
 
-Resultado de curl `IP-Balanceador` con Haproxy Round Robin:
+Resultado de `curl IP-Balanceador` con Haproxy Round Robin:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-2-2%20Funcionamiento%20HAPROXY%20RoundRobin.JPG)
 
-Configuracion del archivo /etc/haproxy/haproxy.cfg Ponderacion 1 - 3:
+Configuracion del archivo `/etc/haproxy/haproxy.cfg` Ponderacion 1 - 3:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-2-3%20Configuracion%20HAPROXY%20ponderacion.JPG)
 
-Resultado de curl IP-Balanceador con Haproxy ponderacion 1 - 3:
+Resultado de `curl IP-Balanceador` con Haproxy ponderacion 1 - 3:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-2-4%20Funcionamiento%20HAPROXY%20ponderacion.JPG)
 
@@ -62,7 +62,7 @@ Para que no se inicie la configuracion por defecto tenemos que poner el parametr
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-3-2%20Modificar%20startup%3D1.JPG)
 
-Resultado de curl `IP-Balanceador` con Pound ponderacion 1 - 4:
+Resultado de `curl IP-Balanceador` con Pound ponderacion 1 - 4:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-3-3%20Funcionamiento%20POUND%20prioridades.JPG)
 
@@ -71,16 +71,19 @@ Resultado de curl `IP-Balanceador` con Pound ponderacion 1 - 4:
 Nginx:
 
 `service nginx restart`
+
 `service nginx stop`
 
 Haproxy:
 
 `/usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg`
+
 `/etc/init.d/haproxy stop`
 
 Pound:
 
 `/etc/init.d/pound restart`
+
 `service pound stop`
 
 
