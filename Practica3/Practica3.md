@@ -12,7 +12,7 @@ El archivo de configuracion de Nginx ponderacion 1 -2 se queda de la siguiente f
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-1-3%20Configuracion%20NGINX%20ponderacion.JPG)
 
-Ahora vemos las respuestas al comando **curl IP-Balanceador** con nginx: 
+Ahora vemos las respuestas al comando `curl IP-Balanceador` con nginx: 
 
 Reparto equitativo RoundRobin:
 
@@ -30,7 +30,7 @@ Configuracion del archivo /etc/haproxy/haproxy.cfg Round Robin:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-2-1%20Configuracion%20HAPROXY%20RoundRobin.JPG)
 
-Resultado de curl IP-Balanceador con Haproxy Round Robin:
+Resultado de curl `IP-Balanceador` con Haproxy Round Robin:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-2-2%20Funcionamiento%20HAPROXY%20RoundRobin.JPG)
 
@@ -62,11 +62,32 @@ Para que no se inicie la configuracion por defecto tenemos que poner el parametr
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-3-2%20Modificar%20startup%3D1.JPG)
 
-Resultado de curl IP-Balanceador con Pound ponderacion 1 - 4:
+Resultado de curl `IP-Balanceador` con Pound ponderacion 1 - 4:
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica3/Imagenes/3-3-3%20Funcionamiento%20POUND%20prioridades.JPG)
+
+**Ordenes para iniciar y apagar los balanceadores**
+
+Nginx:
+
+`service nginx restart`
+`service nginx stop`
+
+Haproxy:
+
+`/usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg`
+`/etc/init.d/haproxy stop`
+
+Pound:
+
+`/etc/init.d/pound restart`
+`service pound stop`
+
 
 **Referencias:**
 
 http://www.cyberciti.biz/faq/linux-http-https-reverse-proxy-load-balancer/
+https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps
+http://linux.die.net/man/8/pound
+
 
