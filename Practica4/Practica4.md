@@ -3,10 +3,18 @@
 # **PRACTICA 4**
 
 
-*El archivo de configuracion de Nginx se queda de la siguiente forma:*
-![imagen](Fotoconfiguracion)
+En esta practica vamos a comprobar el rendimiento de los servidores web que hemos instalado anteriormente, para ello utilizaremos Apache Benchmark y Siege en los servidores con balenceadores de carga distintos(Nginx,Haproxy y sin balanceador a un servidor solo).
 
+**Servidor Único con Apache Bencmark**
 
-Despues de instalar y configurar nginx vemos las respuestas al comando curl IP-Balanceador con nginx 
+**Nginx con Apache Bencmark**  
+
+**Haproxy Único con Apache Bencmark**  
+
+**Servidor Único con Siege**
+
+**Nginx con Siege**  
+
+**Haproxy Único con Siege**    
 
 
