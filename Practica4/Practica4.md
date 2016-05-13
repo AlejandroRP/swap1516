@@ -16,7 +16,9 @@ El script que vamos a ejecutar hará que cada petición lleve un tiempo no despr
 
 Hemos elegido las métricas de Apache Benchmark [] [] y [] porque []. Estos son los resultados con Apache Benchmark:
 
-![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica4/Datos%20-%20ApacheBenchmark.JPG)
+![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica4/Tablas%20-%20ApacheBenchmark.JPG)
+
+![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica4/Gr%C3%A1ficas%20-%20ApacheBenchmark.JPG)
 
 Conclusiones molonas aquí []
 
@@ -28,7 +30,9 @@ La orden para utilizar Siege es la siguiente:
 
 Hemos elegido las métricas de Siege [] [] y [] porque []. Estos son los resultados con Siege:
 
-![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica4/Datos%20-%20SIEGE.JPG)  
+![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica4/Tablas%20-%20SIEGE.JPG)
+
+![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Practica4/Gr%C3%A1ficas%20-%20SIEGE.JPG)
 
 Conclusiones molonas aquí []
 
