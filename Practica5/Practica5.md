@@ -1,42 +1,17 @@
 
 
-# **PRACTICA 5**
+# **PRÁCTICA 5: Réplica de bases de datos MySQL**
 
-//// NOTAS ////
+En esta práctica vamos a alojar una base de datos en nuestra granja web. Lo haremos de tal forma que el primer servidor web (M1) contenga la base de datos, y el segundo (M2) actúe de servidor de backup. Esto nos dará mayor fiabilidad frente a fallos totales que, tarde o temprano, ocurrirán.
 
-Replica servidor: descrita en seccion 5 del pdf conf maestro-esclavo( maquina 1 y maquina 2(las dos con LAMP) )
+Vamos a hacerlo de dos formas: manual y automáticamente.
 
-PASOS:
+###Forma manual
 
-A)maestro
-	/etc/mysql/my.cuf  -Editamos y ponemos id=1
+Lo primero que hay que hacer es crear una base de datos y rellenarla de algunos datos. Ejecutamos lo siguiente:
 
-B)esclavo
-	/etc/mysql/my.cuf  -Editamos y ponemos id=2
+`mysql -uroot -p`
 
-C)maestro
-	mysql -uroot -p
-		dentro del gestor creamos un usuario esclavo esclavo(usuario/contraseña) cal que daremos permisos para que acceda a la base de datos
-D)esclavo
-
-	Dentro de la interfaz mysql -uroot -p lo establecemos como esclavo con la orden TOCHA 
-E)Comprobar
-
-	Insertamos cosas en el maestro y vemos que se replican en el esclavo(inserccions, crear tablas)
-	en la ventana del esclavo comprobamos con un select que se ha replicado
-
-
-Para la parte opcional se replican los pasos anteriores en los dos servidores, haciendolos esclavo esclavo
-
----------------------------------------------
-
-1. Crear una BD con al menos una tabla y algunos datos:
-
- Podemos hacerlo con la siguiente orden `mysqldump ejemplodb -u root -p > /root/ejemplodb.sql` pero antes tenemos que aseguramos de bloquear la BD porque los datos pueden estar actualizandose, para ello utilizamos la orden `FLUSH TABLES WITH READ LOCK;` para bloquear y luego la orden ` UNLOCK TABLES;` para desbloquear en el terminal de mysql.
-
- Guardamos los datos mysqldump con la siguiente orden `mysqldump ejemplodb -u root -p > /root/ejemplodb.sql` y podremos ir a la maquina esclavo y copiar los datos guardados con la siguiente orden `scp root@maquina1:/root/ejemplodb.sql /root/`. 
-
-
-![imagen]()
+###Forma automática
 
 
