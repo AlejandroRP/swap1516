@@ -1,0 +1,9 @@
+<pregunta>
+  <enunciado>Indica cual no es un factor a tener en cuenta al diseñar la arquitectura de BD.</enunciado>
+  <opcionA>No conviene utilizar hardware redundante para los servidores.</opcionA>
+  <opcionB>Las búsquedas que devuelvan resultados muy grandes afectarán al rendimiento de CPU, almacenamiento y red.</opcionB>
+  <opcionC>El tipo de accesos a la BD también influye.</opcionC>
+  <opcionD>Una BD se podrá escalar en el futuro si desde el principio se instaló hardware con capacidad de ampliación (CPU,
+memoria, etc) y se configuró el software de forma adecuada.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
