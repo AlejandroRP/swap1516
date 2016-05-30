@@ -1,0 +1,9 @@
+
+<pregunta>
+  <enunciado>¿Cual de las siguientes opciones tiene un mayor impacto en la escalabilidad de un sistema que da servico a un gran numero de usuarios? </enunciado>
+  <opcionA>Optimización del Hardware</opcionA>
+  <opcionB>Diseño</opcionB>
+  <opcionC>Optimización del producto</opcionC>
+  <opcionD>Optimización del codigo</opcionD>
+  <solucion>B</solucion>
+</pregunta>

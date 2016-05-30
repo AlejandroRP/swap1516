@@ -1,0 +1,8 @@
+<pregunta>
+  <enunciado>Indica que metrica sirve para determinar cuantas sesiones de usuario TCP puede manejar el balanceador al mismo tiempo.</enunciado>
+  <opcionA>Rendimiento,en bits por segundo</opcionA>
+  <opcionB>Conexiones por segundo</opcionB>
+  <opcionC>Numero de conexiones concurrentes</opcionC>
+  <opcionD>Todas sirven para esto</opcionD>
+  <solucion>C</solucion>
+</pregunta>

@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>Indica la opcion incorrecta en cuanto a la funcionalidades que permiten los dispositivos hardware de balanceo de carga</enunciado>
+  <opcionA>Hacen traducciones NAT</opcionA>
+  <opcionB>No monitorizan la disponibilidad y fallos en aplicaciones</opcionB>
+  <opcionC>Permiten la entrada/salida de servidores de forma automática</opcionC>
+  <opcionD>Tienen varios niveles de redundancia </opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Indica cuales son tecnologias similares al balanceo de carga</enunciado>
+  <opcionA>Balanceo de carga en cortafuegos, Balanceo de carga global y Clustering</opcionA>
+  <opcionB>Balanceo de carga en routes, Balanceo de carga global y Clustering</opcionB>
+  <opcionC>Balanceo de carga en cortafuegos, Balanceo de carga en routes y Clustering</opcionC>
+  <opcionD>Balanceo de carga en cortafuegos, Balanceo de carga global y Balanceo de carga en routes</opcionD>
+  <solucion>C</solucion>
+</pregunta>

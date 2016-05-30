@@ -1,0 +1,8 @@
+<pregunta>
+  <enunciado>Indica que tipo de seguridad en servidores tiene en cuenta la ubicación de los servidores y elementos criticos de red.</enunciado>
+  <opcionA>Seguridad a nivel físico</opcionA>
+  <opcionB>Seguridad a nivel de administrador</opcionB>
+  <opcionC>Seguridad a nivel de red</opcionC>
+  <opcionD>En cuanto a la ubicacion de los servidores y elementos criticos de red no hay que tener en cuenta la seguridad.</opcionD>
+  <solucion>C</solucion>
+</pregunta>

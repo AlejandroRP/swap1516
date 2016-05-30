@@ -1,0 +1,9 @@
+
+<pregunta>
+  <enunciado>En aquellos casos en los que haya que hacer frente a un alto trafico de red y dar servicio a un gran numero de usuarios,¿Cual es la aproximacion mas adecuada para darles servicio a estos?</enunciado>
+  <opcionA>Montar una granja web</opcionA>
+  <opcionB>Montar un servidor en una máquina</opcionB>
+  <opcionC>Tener un servidor en una maquina y una segunda maquina para desarrollo </opcionC>
+  <opcionD>Ninguna de las aproximaciones anteriores es valida</opcionD>
+  <solucion>A</solucion>
+</pregunta>

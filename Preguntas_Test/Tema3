@@ -1,0 +1,19 @@
+
+<pregunta>
+  <enunciado>¿Que configuracion de DMZ se basa en aislar todos los servidores con contafuegos?</enunciado>
+  <opcionA>DMZ tradicional</opcionA>
+  <opcionB>DMZ simple</opcionB>
+  <opcionC>DMZ completo</opcionC>
+  <opcionD>DMZ doble</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>¿Que aspectos tenemos que tener en cuenta pata conectar una granja web a Internet?</enunciado>
+  <opcionA>Network address translation</opcionA>
+  <opcionB>Calidad del servicio y ancho de banda</opcionB>
+  <opcionC>Filtrado y bloqueo de paquetes</opcionC>
+  <opcionD>Todas las anteriores son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
