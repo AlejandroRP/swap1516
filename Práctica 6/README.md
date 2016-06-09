@@ -28,13 +28,13 @@ Necesitamos buscar la información de los discos que hemos añadido con:
 Para crear el RAID 1 con los discos */dev/sdb* y */dev/sdc*, utilizando en el dispositivo */dev/md0*:
 
 ```
-sudo mdadm -C /dev/md0 --level=raid1 --raid-devices=2 /dev/sdb /dev/sdc
+  sudo mdadm -C /dev/md0 --level=raid1 --raid-devices=2 /dev/sdb /dev/sdc
 ```
 
 Ahora vamos a darle formato:
 
 ```
-sudo mkfs /dev/md0
+  sudo mkfs /dev/md0
 ```
 
 Para poder utilizar nuestro RAID, lo montamos en un directorio que creamos llamado */dat*
@@ -47,8 +47,8 @@ Para poder utilizar nuestro RAID, lo montamos en un directorio que creamos llama
 Para comprobar que hemos hecho todo correctamente hasta ahora, utilizamos:
 
 ```
-sudo mount
-sudo mdadm --detail /dev/md0`
+  sudo mount
+  sudo mdadm --detail /dev/md0`
 ```
 
 ![imagen](https://github.com/AlejandroRP/swap1516/blob/master/Pr%C3%A1ctica%206/Im%C3%A1genes/6-4%20Informaci%C3%B3n%20del%20RAID%20sin%20fallos.jpg)
